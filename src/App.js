@@ -1,9 +1,10 @@
 import './App.css';
+import ImageContainer from './containers/ImageContainer';
 
 function App() {
   return (
     <div className="App">
-      <p>Hello Mars!</p>
+      <ImageContainer/>
     </div>
   );
 }
